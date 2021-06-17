@@ -16,7 +16,7 @@ steps:
 - script: |
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
-    printenv ACCESS_TOKEN
+    echo $ACCESS_TOKEN
   displayName: 'Run a multi-line script'
   env:
     ACCESS_TOKEN: ${System.AccessToken}
